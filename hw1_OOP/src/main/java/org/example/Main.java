@@ -54,7 +54,7 @@ public class Main {
         car1.setYear(2022);
         car1.start();
         car1.stop();
-        car1.distance();
+        car1.distance(1703);
         System.out.println();
 
     }

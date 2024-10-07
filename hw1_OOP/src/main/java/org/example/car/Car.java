@@ -42,7 +42,7 @@ public class Car implements Drivable {
     }
 
     @Override
-    public void distance() {
-        System.out.println(this.brand + " " + this.model + " " + this.year + " пробег - ???");
+    public void distance(int distance) {
+        System.out.println(this.brand + " " + this.model + " " + this.year + ": пробег - " + distance + " км.");
     }
 }

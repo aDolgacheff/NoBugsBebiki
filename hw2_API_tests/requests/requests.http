@@ -1,0 +1,22 @@
+###
+POST https://crudcrud.com/api/dc3c8317e38d49c49405c1e8f5b1a037/unicorn
+Content-Type:application/json
+
+{
+  "name": "Plotva",
+  "tailColor": "black"
+}
+
+###
+DELETE https://crudcrud.com/api/dc3c8317e38d49c49405c1e8f5b1a037/unicorn/6716d68ba0a8cd03e818b19c
+
+###
+PUT https://crudcrud.com/api/dc3c8317e38d49c49405c1e8f5b1a037/unicorn/6716796fa0a8cd03e818b14c
+Content-Type: application/json
+
+{
+  "tailColor": "pink"
+}
+
+###
+GET https://crudcrud.com/api/dc3c8317e38d49c49405c1e8f5b1a037/unicorn/6716796fa0a8cd03e818b14c

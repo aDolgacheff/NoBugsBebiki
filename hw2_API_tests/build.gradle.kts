@@ -14,6 +14,8 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
     testImplementation("io.rest-assured:rest-assured:5.5.0")
     testImplementation("com.fasterxml.jackson.core:jackson-databind:2.13.3")
+    implementation("com.codeborne:selenide:7.5.1")
+
 }
 
 tasks.test {
